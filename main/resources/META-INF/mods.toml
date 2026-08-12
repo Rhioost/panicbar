@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL=""
+
+[[mods]]
+modId="panicbar"
+version="${file.jarVersion}"
+displayName="Panic Bar"
+description='''Adds a panic bar (pink to purple) that fills as hostile mobs target or chase you, and when you take damage. Fully configurable via the mod config screen (Configured/Forge config menu compatible).'''
+authors="Rhioost"
+
+[[dependencies.panicbar]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.panicbar]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
